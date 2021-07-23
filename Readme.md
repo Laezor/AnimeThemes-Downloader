@@ -13,7 +13,9 @@ It will also download the newer versions of the same opening/ending! Be sure to 
 python '.\AnimeThemes Downloader.py' 
 #You can also double click the script to run...
 ```
+# Download
 
+Here you will find the latest release of the [script](https://github.com/Laezor/AnimeThemes-Downloader/releases/tag/v1.0)
 # License
 
 MIT
