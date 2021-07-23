@@ -9,6 +9,8 @@ import urllib.request
 root = tk.Tk()
 root.withdraw()
 
+print("Select a directory!")
+
 path = filedialog.askdirectory()
 
 if not path:
