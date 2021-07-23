@@ -11,6 +11,11 @@ root.withdraw()
 
 path = filedialog.askdirectory()
 
+if not path:
+    print("No path is selected")
+    input("Press enter to Exit...")
+    sys.exit()
+
 checkaccount = input(
     'choose account type anilist or mal. WARNING! put those exact types!\n')
 
@@ -19,6 +24,7 @@ def dl_progress(count, block_size, total_size):
     percent = int(count * block_size * 100 / total_size)
     sys.stdout.write("\r...%d%%" % percent)
     sys.stdout.flush()
+
 
 if checkaccount == 'anilist':
     username = input('Enter your username of your anilist or mal account\n')
